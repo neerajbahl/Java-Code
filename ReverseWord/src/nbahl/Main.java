@@ -29,7 +29,7 @@ public class Main {
         //print the original string
         System.out.println("Original string is: ");
         System.out.println(textcharArray);
-        System.out.println("The length of teh string is: "  + textcharArray.length);
+        System.out.println("The length of the string is: "  + textcharArray.length);
 
         // Reversed the complete string
         for (int i = 0; i < textcharArray.length/2; i++)

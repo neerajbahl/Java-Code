@@ -5,12 +5,14 @@ import java.util.Scanner;
  */
 public class testingCode1 {
     public static void main(String[] args) {
-
-        for (int i = 1; i <= 4; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print ("*");
-            }
-            System.out.println ();
+        int num;
+        Scanner input = new Scanner(System.in);
+        do {
+            System.out.println("Enter a number less than 100: ");
+            num = input.nextInt();
         }
+        while (num < 0 || num > 100 );
+        //while (num >= 0 && num <= 100 ); incorrect boolean expression
+
     }
 }
