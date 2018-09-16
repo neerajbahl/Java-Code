@@ -1,5 +1,5 @@
 /*
-Author: Neeraj Bahl (nbahl@asu.edu)
+Author: Neeraj Bahl
 Date: 2/18/2016
 Version: 1.0
 References:

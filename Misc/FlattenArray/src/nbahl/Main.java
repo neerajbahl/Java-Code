@@ -1,21 +1,8 @@
 /*
-Method to flatten matrix for Usebutton Intern Coding Challenge
-Author: Neeraj Bahl (neeraj.bahl@asu.edu)
+Method to flatten matrix
+Author: Neeraj Bahl 
 Date: April 11, 2016
 Version: 1.0
-
-How the method works:
-The mehod works by creating a new output list, then runs a for loop on each element of the input list object,
-if it finds an integer, it adds to the output list, if it finds null, does nothing, if it finds another nested object,
-it recursively runs the function
-
-Test Cases:
-Test cases have been included as System.out.println in the main method
-
-How to run test cases:
-Copy paste one of the test cases from the main method (the whole statement), change the matrix, please ensure that,
-each time a nested array is to be included, please include new Object[] like this:
-new Object[]{ 1, 2, null, 3}
  */
 
 package nbahl;
